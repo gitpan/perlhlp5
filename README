@@ -1,0 +1,53 @@
+Perl5 HELP for Windows (winhlp32)
+
+Based on perlpod 5.005_62 (ie 5.6) and pod2rtf 1.51
+
+Note that the winhelp creatable by tex2html is different and has
+less errors, but is not avalaible for the latest perldocs.
+It also includes the latest updates for my old pod2rtf hack v1.51 
+(a mess but it works)
+
+Size: 1.4MB zipped, 1.8MB unzipped
+
+Location:
+  <URL:http://www.perl.com//CPAN/authors/id/RURBAN/perlhlp5-1.51.zip> 
+  <URL:ftp://xarch.tu-graz.ac.at/pub/autocad/urban/perl/perlhlp5-1.51.zip>
+
+Changes:
+1.51: 1999-12-29
+  - fixed perlre pages:
+    the most important 2nd page was missing from 1.4 (not at CPAN)
+  - improved and more condensed layout (fixed paragraphs)
+  - added perlopentut, perlreftut, perltootc, perlthrtut, perldbmfilter,
+    perltodo, win32, perlcompile, perlhack
+1.40: 1999-07-19
+  - new perl5 build based on the 5.005_02 pods
+    the former was based on 5.003 or 5.004 pods (don't know anymore)
+  - renamed from perl.hlp tp perl5.hlp
+    but missed one important page (perlre)
+1.3: ?? rurban
+  - internal only
+1.2: 1996-12-05 rurban
+  - based on pod2rtf.pl 1.2 and perlpod 5.004 
+  - perl.hlp included 3 early ActiveWare (316?) pods
+    (win32, win32ext, oleauto)
+  - manually fixed to include perlsyn statements (for, while, if, ...)
+1.0: 1996-05-07 rurban
+  - orginal version on CPAN as perlhlp.zip,
+    based on 5.003 with some manual fixes
+
+Bugs, Future directions of pod2rtf.pl
+- Some help pages are empty.
+  v1.52 will fix that and will be based on 5.005_63. (aka 5.6)
+- A Pod::Parser based pod2rtf and merging with Aldo Capini's Pod::RTF 
+  is in the works, but advances are slow.
+- Improved automatic navigation window as with tex2html
+- Automatic CNT creation based on perl.doc
+- A full Win32 chm (compressed html) [1.8MB] is also at my website, 
+  which includes also the standard extensions and modules.
+  As with the winhelp it includes a toc navbar, index and fulltext
+  search (in contrast to plain html).
+- Think over the current pagebreak rationale
+
+--
+Reini Urban <rurban@sbox.tu-graz.ac.at> 2000-01-04 20:15 

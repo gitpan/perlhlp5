@@ -1,0 +1,58 @@
+:Base perl5.hlp>main
+:Title Perl5 Manual
+1 perl:           Practical Extraction and Report Language for the Win32 platform=PERL
+1 perldelta:      Perl changes since previous version=perldelta
+1 perl5005delta:  Perl changes in version 5.005=perl5005delta
+1 perl5004delta:  Perl changes in version 5.004=perl5004delta
+1 perlfaq:        Perl frequently asked questions=perlfaq
+1 perltoc:        Perl documentation table of contents=perltoc
+
+1 perldata:       Perl data structures=perldata
+1 perlsyn:        Perl syntax=perlsyn
+1 perlop:         Perl operators and precedence=perlop
+1 perlre:         Perl regular expressions=perlre
+1 perlrun:        Perl execution and options=perlrun
+1 perlfunc:       Perl builtin functions=perlfunc
+1 perlopentut:    Perl open() tutorial=perlopentut
+1 perlvar:        Perl predefined variables=perlvar
+1 perlsub:        Perl subroutines=perlsub
+1 perlmod:        Perl modules: how they work=perlmod
+1 perlmodlib:     Perl modules: how to write and use=perlmodlib
+1 perlmodinstall: Perl modules: how to install from CPAN=perlmodinstall
+1 perlform:       Perl formats=perlform
+1 perllocale:     Perl locale support=perllocale
+
+1 perlreftut:     Perl references short introduction=perlreftut
+1 perlref:        Perl references=perlref
+1 perldsc:        Perl data structures intro=perldsc
+1 perllol:        Perl data structures: lists of lists=perllol
+1 perltoot:       Perl OO tutorial, part 1=perltoot
+1 perltootc:      Perl OO tutorial, part 2=perltootc
+1 perlobj:        Perl objects=perlobj
+1 perltie:        Perl objects hidden behind simple variables=perltie
+1 perlbot:        Perl OO tricks and examples=perlbot
+1 perlipc:        Perl interprocess communication=perlipc
+1 perlthrtut:     Perl threads tutorial=perlthrtut
+1 perldbmfilter:  Perl DBM Filters=perldbmfilter
+
+1 perlcompile:    Perl compiler suite intro=perlcompile
+1 perldebug:      Perl debugging=perldebug
+1 perldiag:       Perl diagnostic messages=perldiag
+1 perlsec:        Perl security=perlsec
+1 perltrap:       Perl traps for the unwary=perltrap
+1 perlport:       Perl portability guide=perlport
+1 perlstyle:      Perl style guide=perlstyle
+
+1 perlpod:        Perl plain old documentation=perlpod
+1 perlbook:       Perl book information=perlbook
+
+1 perlembed:      Perl ways to embed perl in your C or C++ application=perlembed
+1 perlapio:       Perl internal IO abstraction interface=perlapio
+1 perlxs:         Perl XS application programming interface=perlxs
+1 perlxstut:      Perl XS tutorial=perlxstut
+1 perlguts:       Perl internal functions for those doing extensions=perlguts
+1 perlcall:       Perl calling conventions from C=perlcall
+
+1 perltodo:       Perl things to do=perltodo
+1 perlhack:       Perl hackers guide=perlhack
+1 perlhist:       Perl history records=perlhist
